@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Paytone+One&display=swap');
+
+html, body {
+  width: "300px";
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+#container {
+  width: "500px";
+  padding: 10px;
+}
+
+#popup-header {
+  margin: 0;
+  padding: 10px;
+}
+
+#popup-header h1 {
+  margin: 0;
+  color: rgb(152, 144, 238);
+  font-family: 'Paytone One', sans-serif;
+}
+
+#tab-buttons {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+#tab-buttons button {
+  background: none;
+  border: none;
+  font-size: 11pt;
+  color: rgb(70, 67, 77);
+}
+
+#tab-buttons button:hover {
+  background: none;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+#tab-content {
+  border-radius: 15px;
+  border: 1px solid rgb(199, 199, 199);
+  padding: 10px;
+}
